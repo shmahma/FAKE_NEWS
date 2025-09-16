@@ -1,0 +1,8 @@
+pandas
+scikit-learn
+transformers
+datasets
+torch
+fastapi
+uvicorn
+streamlit
