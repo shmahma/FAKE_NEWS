@@ -63,5 +63,6 @@ python -m streamlit run app.py
 ```
 - Enter news text in the browser
 - Get real-time predictions
-![streamlit](images/True.png)
+![streamlit](images/true.png)
 ![streamlit](images/fake.png)
+
