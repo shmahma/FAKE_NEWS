@@ -2,7 +2,7 @@
 
 ## Overview
 This project detects fake news using NLP and transformer models. A `DistilBERT` classifier is trained to distinguish between true and fake news.
-Dataset: https://www.kaggle.com/datasets/emineyetm/fake-news-detection-datasets
+Dataset: https://www.kaggle.com/datasets/emineyetm/fake-news-detection-datasets. 
 A Streamlit interface allows users to easily input news text for prediction and get instant classification results.
 
 ---
@@ -65,4 +65,5 @@ python -m streamlit run app.py
 - Get real-time predictions
 ![streamlit](images/true.png)
 ![streamlit](images/fake.png)
+
 
