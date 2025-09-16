@@ -43,7 +43,7 @@ pip install -r requirements.txt
 
 ## Usage
 
-### 1️⃣ Train the Model
+### 1️ Train the Model
 ```bash
 python src/train.py
 ```
@@ -52,14 +52,14 @@ python src/train.py
 - Fine-tunes DistilBERT for binary classification
 - Saves the trained model in models/fake_news_model
 
-### 2️⃣ Predict with Test Data
+### 2️ Predict with Test Data
 ```bash
 python src/predict.py 
 ```
 - Input news text
 - Returns "Fake" or "True"
   
-### 3️⃣ Streamlit Interface
+### 3️ Streamlit Interface
 ```bash
 python -m streamlit run app.py
 ```
@@ -67,6 +67,7 @@ python -m streamlit run app.py
 - Get real-time predictions
 ![streamlit](images/true.png)
 ![streamlit](images/fake.png)
+
 
 
 
